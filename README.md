@@ -28,13 +28,15 @@ class WemersonGuilherme:
 
 ---
 
-## 📊 GitHub Stats
+## 🐍 Contribuições
 
 <div align="center">
-  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=wganalytics&show_icons=true&theme=dark&hide_border=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=wganalytics&layout=compact&theme=dark&hide_border=true)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wganalytics/wganalytics/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/wganalytics/wganalytics/output/github-contribution-grid-snake.svg"/>
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/wganalytics/wganalytics/output/github-contribution-grid-snake.svg"/>
+</picture>
 
 </div>
 
@@ -180,9 +182,7 @@ Inspirado no streaming do GTA, o **RLM (Recursive Language Model)** organiza doc
 
 <div align="center">
 
-📩 wemerson.souza@giulia-ai.com
-🌐 [giulia-ai.com](https://giulia-ai.com) · [academy.giulia-ai.com](https://academy.giulia-ai.com)
-💬 [WhatsApp](https://wa.me/5527997136867)
+📩 wemerson.souza@giulia-ai.com &nbsp;|&nbsp; 🌐 [giulia-ai.com](https://giulia-ai.com) · [academy.giulia-ai.com](https://academy.giulia-ai.com) &nbsp;|&nbsp; 💬 [WhatsApp](https://wa.me/5527997136867)
 
 </div>
 
