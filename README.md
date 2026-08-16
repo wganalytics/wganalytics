@@ -48,17 +48,17 @@ class WemersonGuilherme:
 
 O **GIULIA AI Engineering Ecosystem (GARE)** é um framework completo de engenharia para sistemas de IA — 100% local, 100% privado, com governança automatizada pelo agente **Antigravity**.
 
-| # | Projeto | Conceito | Stack Principal | Repositório | Status |
-|:-:|---------|----------|-----------------|--------------|:------:|
-| 01 | **Vanilla RAG** | Baseline RAG | LangChain · ChromaDB · Ollama · FastAPI · Streamlit | [giulia-rag-vanilla](https://github.com/wganalytics/giulia-rag-vanilla) | ✅ |
-| 02 | **Memory RAG** | RAG + Memória Persistente | Redis · MMR Retrieval (k=5) | [rag-memory-redis-giulia-ai](https://github.com/wganalytics/rag-memory-redis-giulia-ai) | ✅ |
-| 03 | **Agentic RAG** | ReAct + Tool Calling | LangChain Agents · DuckDuckGo · Numexpr | [rag-agentic-react-giulia-ai](https://github.com/wganalytics/rag-agentic-react-giulia-ai) | ✅ |
-| 04 | **Corrective RAG** | CRAG + Self-Reflection | Auditor de Relevância · Auto-Query Reform | [rag-corrective-crag-giulia-ai](https://github.com/wganalytics/rag-corrective-crag-giulia-ai) | ✅ |
-| 05 | **Adaptive RAG** | Roteamento Dinâmico | Intent Classification · PIIScrubber LGPD | [rag-adaptive-sse-giulia-ai](https://github.com/wganalytics/rag-adaptive-sse-giulia-ai) | ✅ |
-| 06 | **GraphRAG** | Graph RAG + Cypher | Neo4j · LLMGraphTransformer | [rag-graphrag-giulia-ai](https://github.com/wganalytics/rag-graphrag-giulia-ai) | ✅ |
-| 07 | **Hybrid RAG** | BM25 + Vector + RRF | rank_bm25 · sentence-transformers · RRF | [rag-hybrid-giulia-ai](https://github.com/wganalytics/rag-hybrid-giulia-ai) | ✅ |
-| 08 | **HyDE RAG** | Hypothetical Doc Embeddings | HyDEEngine · ChromaDB · Ollama | [rag-hyde-giulia-ai](https://github.com/wganalytics/rag-hyde-giulia-ai) | ✅ |
-| 09 | **Deploy Cloud** | Orquestração Docker | Docker Compose · gare-network bridge | [rag-deploy-cloud-giulia-ai](https://github.com/wganalytics/rag-deploy-cloud-giulia-ai) | ✅ |
+| # | Projeto | Conceito | Repositório |
+|:-:|---------|----------|--------------|
+| 01 | **Vanilla RAG** | Baseline RAG | [giulia-rag-vanilla](https://github.com/wganalytics/giulia-rag-vanilla) |
+| 02 | **Memory RAG** | RAG + Memória Persistente | [rag-memory-redis-giulia-ai](https://github.com/wganalytics/rag-memory-redis-giulia-ai) |
+| 03 | **Agentic RAG** | ReAct + Tool Calling | [rag-agentic-react-giulia-ai](https://github.com/wganalytics/rag-agentic-react-giulia-ai) |
+| 04 | **Corrective RAG** | CRAG + Self-Reflection | [rag-corrective-crag-giulia-ai](https://github.com/wganalytics/rag-corrective-crag-giulia-ai) |
+| 05 | **Adaptive RAG** | Roteamento Dinâmico | [rag-adaptive-sse-giulia-ai](https://github.com/wganalytics/rag-adaptive-sse-giulia-ai) |
+| 06 | **GraphRAG** | Graph RAG + Cypher | [rag-graphrag-giulia-ai](https://github.com/wganalytics/rag-graphrag-giulia-ai) |
+| 07 | **Hybrid RAG** | BM25 + Vector + RRF | [rag-hybrid-giulia-ai](https://github.com/wganalytics/rag-hybrid-giulia-ai) |
+| 08 | **HyDE RAG** | Hypothetical Doc Embeddings | [rag-hyde-giulia-ai](https://github.com/wganalytics/rag-hyde-giulia-ai) |
+| 09 | **Deploy Cloud** | Orquestração Docker | [rag-deploy-cloud-giulia-ai](https://github.com/wganalytics/rag-deploy-cloud-giulia-ai) |
 
 Cada projeto tem seu próprio repositório e roda de forma independente — todos com `requirements.txt` validado do zero (471 testes passando) e seletor multi-provider de LLM (Ollama local / Gemini / Grok / Groq).
 
