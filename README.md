@@ -115,14 +115,14 @@ O ecossistema não depende de um agente único — a governança está documenta
 
 ## 🧠 Padrão RLM — Gerenciamento de Contexto
 
-Inspirado no streaming do GTA, o **RLM (Recursive Language Model)** organiza documentação em 5 camadas — permitindo que qualquer LLM retome o projeto sem perder contexto:
+Inspirado no streaming de mundo aberto do GTA — carrega só a camada necessária pra responder a pergunta de agora, não o projeto inteiro de uma vez. O **RLM (Recursive Language Model)** organiza a documentação do monorepo em 5 camadas, da mais compacta pra mais profunda, para qualquer LLM retomar o projeto do zero sem perder contexto:
 
 ```
-① CONTEXTO_RLM.md           ←  "Onde estou?" (30 segundos)
-② DIARIO_DE_BORDO.md        ←  "O que já fizemos?"
-③ MANUAL_DO_ECOSSISTEMA.md  ←  "Quais são as regras?"
-④ .contexto_navegacao.md    ←  "Onde encontro X?"
-⑤ governance/PRJ-XX/        ←  Spec + plano do projeto ativo
+① CONTEXTO_RLM.md              ←  "Onde estou?" (30 segundos)
+② DIARIO_DE_BORDO.md           ←  "O que já fizemos?"
+③ MANUAL_DO_ECOSSISTEMA.md     ←  "Quais são as regras?"
+④ .contexto_navegacao.md       ←  "Onde encontro X?"
+⑤ governance/projects/PRJ-XX/  ←  Spec + plano do projeto ativo
 ```
 
 ---
