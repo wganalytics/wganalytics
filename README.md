@@ -111,7 +111,7 @@ Também disponível como [repositório único (giulia-mcp-series)](https://githu
 
 | 🐍 Arquivos Python | 📝 Linhas de Código | 🧪 Arquivos de Teste | 📋 SDDs Completos |
 |:-----------------:|:------------------:|:-------------------:|:-----------------:|
-| 69 | 4.331 | 9 | 9 |
+| 174 | 20.401 | 40 | 9 |
 
 | 📓 Sessões Documentadas | ⚙️ Scripts de Automação | 🔄 Boards Jira | ⏱️ Dias de Dev |
 |:----------------------:|:----------------------:|:--------------:|:--------------:|
