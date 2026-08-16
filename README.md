@@ -97,7 +97,7 @@ Também disponível como [repositório único (giulia-mcp-series)](https://githu
 
 ## <img src="assets/giulia-avatar.png" alt="Giulia" width="30" height="30"/> GIULIA AI Engineering Ecosystem
 
-O **Antigravity** não apenas escreve código — ele opera o ciclo completo de desenvolvimento:
+O ecossistema não depende de um agente único — a governança está documentada no próprio monorepo, então qualquer CLI de codificação com IA (hoje: **Claude Code**, **Codex**, **Antigravity**, **OpenCode**) segue o mesmo ciclo completo de desenvolvimento ao entrar no projeto:
 
 ```
 📖 Lê CONTEXTO_RLM          →  Sabe exatamente onde o projeto está
