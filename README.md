@@ -97,6 +97,8 @@ Também disponível como [repositório único (giulia-mcp-series)](https://githu
 
 ## 🤖 GIULIA AI Engineering Ecosystem
 
+<img src="assets/giulia-avatar.png" alt="Giulia" width="200" align="right"/>
+
 O **Antigravity** não apenas escreve código — ele opera o ciclo completo de desenvolvimento:
 
 ```
