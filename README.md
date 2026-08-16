@@ -68,8 +68,8 @@ Cada projeto tem seu próprio repositório e roda de forma independente — todo
 
 | | |
 |---|---|
-| **Board** — backlog, em progresso e concluído<br><img src="assets/jira/jira-board.png" width="420"/> | **Epic** — Vanilla RAG com suas 7 tasks<br><img src="assets/jira/jira-epic.png" width="420"/> |
-| **Task** — subtasks e épico pai visíveis<br><img src="assets/jira/jira-task.png" width="420"/> | **Subtask** — comentário automático do agente ao concluir<br><img src="assets/jira/jira-subtask.png" width="420"/> |
+| **Board** — backlog, em progresso e concluído<br><img src="assets/jira/jira-board.png" width="840"/> | **Epic** — Vanilla RAG com suas 7 tasks<br><img src="assets/jira/jira-epic.png" width="840"/> |
+| **Task** — subtasks e épico pai visíveis<br><img src="assets/jira/jira-task.png" width="840"/> | **Subtask** — comentário automático do agente ao concluir<br><img src="assets/jira/jira-subtask.png" width="840"/> |
 
 </details>
 
