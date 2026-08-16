@@ -68,7 +68,7 @@ Cada projeto tem seu próprio repositório e roda de forma independente — todo
 
 > **8 servidores de protocolo de agentes em Python.** MCP (tools, resources, prompts) e A2A. 212 testes, nada simulado.
 
-Implementações progressivas do [livro *Model Context Protocol* (Sandeco)](https://github.com/sandeco), cada uma isolando um conceito do protocolo — do servidor mais simples até orquestração multi-agente real (WhatsApp, Postgres, A2A).
+Implementações progressivas  cada uma isolando um conceito do protocolo — do servidor mais simples até orquestração multi-agente real (WhatsApp, Postgres, A2A).
 
 | # | Projeto | Conceito | Repositório |
 |:-:|---------|----------|--------------|
