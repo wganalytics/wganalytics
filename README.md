@@ -46,7 +46,7 @@ class WemersonGuilherme:
 
 > **9 implementações progressivas de RAG, do zero ao deploy em produção.** 471 testes, nada simulado.
 
-Implementações progressivas  cada uma isolando uma técnica distinta — de um pipeline vanilla até roteamento adaptativo, grafos e orquestração multi-serviço. Framework 100% local, 100% privado, com seletor multi-provider de LLM (Ollama / Gemini / Grok / Groq) e governança automatizada pelo GIULIA AI Engineering Ecosystem **.
+Implementações progressivas  cada uma isolando uma técnica distinta — de um pipeline vanilla até roteamento adaptativo, grafos e orquestração multi-serviço. Framework 100% local, 100% privado, com seletor multi-provider de LLM (Ollama / Gemini / Grok / Groq) e governança automatizada pelo GIULIA AI Engineering Ecosystem.
 
 | # | Projeto | Conceito | Repositório |
 |:-:|---------|----------|--------------|
