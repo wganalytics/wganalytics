@@ -94,6 +94,19 @@ Implementações progressivas  cada uma isolando um conceito do protocolo — do
 
 Também disponível como [repositório único (giulia-mcp-series)](https://github.com/wganalytics/giulia-mcp-series), com os 8 projetos lado a lado e CI rodando os 212 testes a cada push.
 
+<details>
+<summary><b>📸 Governança em ação — projeto MCP no Jira</b></summary>
+<br>
+
+| | |
+|---|---|
+| **Lista** — os 8 épicos, todos concluídos<br><img src="assets/jira/mcp-list.png" width="840"/> | **Epic** — Ping Server com suas 4 tasks<br><img src="assets/jira/mcp-epic.png" width="840"/> |
+
+**Task** — relatório de conclusão gerado automaticamente (tempo real, status final)
+<img src="assets/jira/mcp-task.png" width="600"/>
+
+</details>
+
 ### 📈 Métricas do Ecossistema
 
 | 🐍 Arquivos Python | 📝 Linhas de Código | 🧪 Arquivos de Teste | 📋 SDDs Completos |
