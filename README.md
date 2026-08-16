@@ -125,6 +125,8 @@ Inspirado no streaming de mundo aberto do GTA — carrega só a camada necessár
 ⑤ governance/projects/PRJ-XX/  ←  Spec + plano do projeto ativo
 ```
 
+A passagem de bastão entre sessões e agentes não fica só na memória — cada handoff de tarefa é gravado em `handoff_trace.jsonl` (um projeto, um arquivo, um evento JSON por linha): timestamp, issue do Jira, skill usada, decisão tomada, justificativa e status. O próximo agente que entrar no projeto lê o porquê da decisão anterior, não só o quê.
+
 ---
 
 ## 🛠️ Stack Técnica
