@@ -50,15 +50,38 @@ O **GIULIA AI Engineering Ecosystem (GARE)** é um framework completo de engenha
 
 | # | Projeto | Técnica | Stack Principal | Status |
 |:-:|---------|---------|-----------------|:------:|
-| 01 | **Vanilla RAG** | Baseline RAG | LangChain · ChromaDB · Ollama · FastAPI · Streamlit | ✅ |
-| 02 | **Memory RAG** | RAG + Memória Persistente | Redis · MMR Retrieval (k=5) | ✅ |
-| 03 | **Agentic RAG** | ReAct + Tool Calling | LangChain Agents · DuckDuckGo · Numexpr | ✅ |
-| 04 | **Corrective RAG** | CRAG + Self-Reflection | Auditor de Relevância · Auto-Query Reform | ✅ |
-| 05 | **Adaptive RAG** | Roteamento Dinâmico | Intent Classification · PIIScrubber LGPD | ✅ |
-| 06 | **GraphRAG** | Graph RAG + Cypher | Neo4j · LLMGraphTransformer | ✅ |
-| 07 | **Hybrid RAG** | BM25 + Vector + RRF | rank_bm25 · sentence-transformers · RRF | ✅ |
-| 08 | **HyDE RAG** | Hypothetical Doc Embeddings | HyDEEngine · ChromaDB · Ollama | ✅ |
-| 09 | **Deploy Cloud** | Orquestração Docker | Docker Compose · gare-network bridge | ✅ |
+| 01 | [**Vanilla RAG**](https://github.com/wganalytics/giulia-rag-vanilla) | Baseline RAG | LangChain · ChromaDB · Ollama · FastAPI · Streamlit | ✅ |
+| 02 | [**Memory RAG**](https://github.com/wganalytics/rag-memory-redis-giulia-ai) | RAG + Memória Persistente | Redis · MMR Retrieval (k=5) | ✅ |
+| 03 | [**Agentic RAG**](https://github.com/wganalytics/rag-agentic-react-giulia-ai) | ReAct + Tool Calling | LangChain Agents · DuckDuckGo · Numexpr | ✅ |
+| 04 | [**Corrective RAG**](https://github.com/wganalytics/rag-corrective-crag-giulia-ai) | CRAG + Self-Reflection | Auditor de Relevância · Auto-Query Reform | ✅ |
+| 05 | [**Adaptive RAG**](https://github.com/wganalytics/rag-adaptive-sse-giulia-ai) | Roteamento Dinâmico | Intent Classification · PIIScrubber LGPD | ✅ |
+| 06 | [**GraphRAG**](https://github.com/wganalytics/rag-graphrag-giulia-ai) | Graph RAG + Cypher | Neo4j · LLMGraphTransformer | ✅ |
+| 07 | [**Hybrid RAG**](https://github.com/wganalytics/rag-hybrid-giulia-ai) | BM25 + Vector + RRF | rank_bm25 · sentence-transformers · RRF | ✅ |
+| 08 | [**HyDE RAG**](https://github.com/wganalytics/rag-hyde-giulia-ai) | Hypothetical Doc Embeddings | HyDEEngine · ChromaDB · Ollama | ✅ |
+| 09 | [**Deploy Cloud**](https://github.com/wganalytics/rag-deploy-cloud-giulia-ai) | Orquestração Docker | Docker Compose · gare-network bridge | ✅ |
+
+Cada projeto tem seu próprio repositório e roda de forma independente — todos com `requirements.txt` validado do zero (471 testes passando) e seletor multi-provider de LLM (Ollama local / Gemini / Grok / Groq).
+
+---
+
+## 🔌 MCP & A2A Series
+
+> **8 servidores de protocolo de agentes em Python.** MCP (tools, resources, prompts) e A2A. 212 testes, nada simulado.
+
+Implementações progressivas do [livro *Model Context Protocol* (Sandeco)](https://github.com/sandeco), cada uma isolando um conceito do protocolo — do servidor mais simples até orquestração multi-agente real (WhatsApp, Postgres, A2A).
+
+| # | Projeto | Conceito | Repositório |
+|:-:|---------|----------|--------------|
+| 01 | **Ping Server** | Tools MCP mínimas | [mcp-ping-server-giulia-ai](https://github.com/wganalytics/mcp-ping-server-giulia-ai) |
+| 02 | **MCP Client** | Seleção de tool por LLM | [mcp-client-giulia-ai](https://github.com/wganalytics/mcp-client-giulia-ai) |
+| 03 | **Resources** | Resources parametrizados | [mcp-resources-giulia-ai](https://github.com/wganalytics/mcp-resources-giulia-ai) |
+| 04 | **Prompts + Streamlit** | Prompts MCP + chat multi-provider | [mcp-prompts-streamlit-giulia-ai](https://github.com/wganalytics/mcp-prompts-streamlit-giulia-ai) |
+| 05 | **Secure Server** | Autenticação por API key (bcrypt) | [mcp-secure-server-giulia-ai](https://github.com/wganalytics/mcp-secure-server-giulia-ai) |
+| 06 | **WhatsApp** | Integração real via Evolution API | [mcp-whatsapp-giulia-ai](https://github.com/wganalytics/mcp-whatsapp-giulia-ai) |
+| 07 | **CrewAI Text-to-SQL** | Agente + PostgreSQL somente-leitura | [mcp-crewai-giulia-ai](https://github.com/wganalytics/mcp-crewai-giulia-ai) |
+| 08 | **Agent-to-Agent** | Protocolo A2A (servidor + cliente) | [mcp-agent-to-agent-giulia-ai](https://github.com/wganalytics/mcp-agent-to-agent-giulia-ai) |
+
+Também disponível como [repositório único (giulia-mcp-series)](https://github.com/wganalytics/giulia-mcp-series), com os 8 projetos lado a lado e CI rodando os 212 testes a cada push.
 
 ### 📈 Métricas do Ecossistema
 
