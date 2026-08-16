@@ -95,7 +95,7 @@ Também disponível como [repositório único (giulia-mcp-series)](https://githu
 
 ---
 
-## 🤖 Antigravity — O Agente que Gerencia o Ecossistema
+## 🤖 GIULIA AI Engineering Ecosystem
 
 O **Antigravity** não apenas escreve código — ele opera o ciclo completo de desenvolvimento:
 
