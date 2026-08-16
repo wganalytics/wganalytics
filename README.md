@@ -143,8 +143,6 @@ Inspirado no streaming do GTA, o **RLM (Recursive Language Model)** organiza doc
 &nbsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="45" title="PostgreSQL"/>
 &nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" width="45" title="SQL Server"/>
-&nbsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="45" title="GitHub"/>
 &nbsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="45" title="Linux"/>
@@ -161,12 +159,17 @@ Inspirado no streaming do GTA, o **RLM (Recursive Language Model)** organiza doc
 ![Ollama](https://img.shields.io/badge/Ollama-Local%20LLM-000000?style=flat-square)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=flat-square)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![LiteLLM](https://img.shields.io/badge/LiteLLM-Multi--Provider-1E293B?style=flat-square)
+![CrewAI](https://img.shields.io/badge/CrewAI-FF5A1F?style=flat-square)
+![MCP](https://img.shields.io/badge/MCP-Model%20Context%20Protocol-000000?style=flat-square)
+![A2A](https://img.shields.io/badge/A2A-Agent--to--Agent-4B5563?style=flat-square)
+![uv](https://img.shields.io/badge/uv-DE5FE9?style=flat-square)
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square)
-![Bizagi](https://img.shields.io/badge/Bizagi-BPM-0078D7?style=flat-square)
 
 </div>
+
+*Stack verificada nos 17 projetos publicados (9 RAG + 8 MCP/A2A) — Gemini, Grok e Groq entram como providers de LLM plugáveis via LiteLLM/seletor multi-provider, não como serviços hospedados.*
 
 ---
 
