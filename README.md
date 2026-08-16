@@ -62,6 +62,17 @@ Implementações progressivas  cada uma isolando uma técnica distinta — de um
 
 Cada projeto tem seu próprio repositório e roda de forma independente — todos com `requirements.txt` validado do zero (471 testes passando) e seletor multi-provider de LLM (Ollama local / Gemini / Grok / Groq).
 
+<details>
+<summary><b>📸 Governança em ação — board GARE no Jira</b></summary>
+<br>
+
+| | |
+|---|---|
+| **Board** — backlog, em progresso e concluído<br><img src="assets/jira/jira-board.png" width="420"/> | **Epic** — Vanilla RAG com suas 7 tasks<br><img src="assets/jira/jira-epic.png" width="420"/> |
+| **Task** — subtasks e épico pai visíveis<br><img src="assets/jira/jira-task.png" width="420"/> | **Subtask** — comentário automático do agente ao concluir<br><img src="assets/jira/jira-subtask.png" width="420"/> |
+
+</details>
+
 ---
 
 ## 🔌 MCP & A2A Series
