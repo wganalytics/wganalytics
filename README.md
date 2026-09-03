@@ -121,25 +121,35 @@ Também disponível como [repositório único (giulia-mcp-series)](https://githu
 
 
 
-## 🏛️ System Design & Arquitetura SaaS
+---
 
-> **Case prático de arquitetura e governança de software para SaaS B2B Multi-Tenant.**
+## 🏛️ System Design, Governança & Arquitetura SaaS
 
-Enquanto os repositórios acima focam em implementações de IA, este case foca na **engenharia de software, segurança e design de sistema** por trás de um produto real (AuditFlow). O repositório contém os Architecture Decision Records (ADRs) documentando a Anti-Corruption Layer, Audit Log Imutável com SHA-256 e as evidências visuais de governança ágil no Jira.
+> **Engenharia de Software no mundo real:** Case prático de arquitetura tática, segurança *by design* e governança ágil para um produto SaaS B2B Multi-Tenant.
 
-| # | Projeto | Foco Principal | Repositório |
-|:-:|---------|----------------|--------------|
-| 01 | **AuditFlow Architecture** | System Design, Governança, ADRs | [saas-architecture-case](https://github.com/wganalytics/saas-architecture-case) |
+Enquanto os repositórios focados em IA (RAG e MCP) demonstram minha capacidade técnica com modelos e protocolos, o **AuditFlow Architecture Case** é a prova material da minha atuação holística como **Tech Lead e Product Architect**. Trata-se de uma documentação no modelo *"Clean Room"* (livre de IP proprietário) que expõe o chassi arquitetural e as decisões difíceis de engenharia de um produto operando em produção.
+
+Neste case, o foco sai do código puro e vai para as métricas de qualidade, rastreabilidade e **Architecture Decision Records (ADRs)** que resolvem problemas críticos de escala e segurança corporativa:
+
+* 🛡️ **Anti-Corruption Layer (IA):** Blindagem da aplicação contra alucinações e dados malformados de LLMs, utilizando validação estrita de *schemas* e *fallback* em cascata via roteador Multi-Provider.
+* 🔒 **Cadeia de Custódia SHA-256:** Garantia de imutabilidade absoluta de logs de auditoria no nível do banco de dados (usando *Triggers*, *Security Definer* e *Advisory Locks* no PostgreSQL).
+* 📡 **Offline-First PWA:** Sincronização resiliente baseada em Service Workers e IndexedDB, permitindo que auditores trabalhem em chão de fábrica sem internet.
+* ⚖️ **Governança Ágil (Jira):** A rastreabilidade de ponta a ponta do projeto. A prova de como fatiamos Epics complexas de arquitetura em *work items* entregáveis e mensuráveis, sem perder a visão do produto.
+
+| # | Projeto | Domínio Técnico | Entregáveis | Repositório |
+|:-:|---------|-----------------|-------------|--------------|
+| 01 | **AuditFlow Architecture** | System Design, Zero-Trust, Governança | ADRs, Diagrama C4-Lite, Mock Q&A, Jira | [saas-architecture-case](https://github.com/wganalytics/saas-architecture-case) |
 
 <details>
-<summary><b>📸 Sneak Peek: Diagrama e Governança</b></summary>
+<summary><b>📸 Sneak Peek: Diagrama Arquitetural e Gestão de Capacidade</b></summary>
 <br>
 
 | | |
 |---|---|
-| **Arquitetura Visual** — Diagrama do Produto<br><img src="https://raw.githubusercontent.com/wganalytics/saas-architecture-case/main/diagram.svg" width="840"/> | **Governança Ágil (Jira)** — Fatiamento da Epic<br><img src="https://raw.githubusercontent.com/wganalytics/saas-architecture-case/main/assets/jira-epic-breakdown.png" width="840"/> |
+| **Arquitetura Visual** — O chassi do produto (Monolito Modular B2B)<br><img src="https://raw.githubusercontent.com/wganalytics/saas-architecture-case/main/diagram.svg" width="840"/> | **Governança Ágil (Jira)** — Fatiamento da Epic e Fluxo Contínuo<br><img src="https://raw.githubusercontent.com/wganalytics/saas-architecture-case/main/assets/jira-epic-breakdown.png" width="840"/> |
 
 </details>
+
 
 
 ---
