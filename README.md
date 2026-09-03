@@ -123,6 +123,8 @@ Também disponível como [repositório único (giulia-mcp-series)](https://githu
 
 ---
 
+---
+
 ## 🏛️ System Design, Governança & Arquitetura SaaS
 
 > **Engenharia de Software no mundo real:** Case prático de arquitetura tática, segurança *by design* e governança ágil para um produto SaaS B2B Multi-Tenant.
@@ -140,15 +142,13 @@ Neste case, o foco sai do código puro e vai para as métricas de qualidade, ras
 |:-:|---------|-----------------|-------------|--------------|
 | 01 | **AuditFlow Architecture** | System Design, Zero-Trust, Governança | ADRs, Diagrama C4-Lite, Mock Q&A, Jira | [saas-architecture-case](https://github.com/wganalytics/saas-architecture-case) |
 
-<details>
-<summary><b>📸 Sneak Peek: Diagrama Arquitetural e Gestão de Capacidade</b></summary>
 <br>
 
-| | |
+| **Arquitetura Visual** — O chassi do produto (Monolito Modular B2B) | **Governança Ágil (Jira)** — Fatiamento da Epic e Fluxo Contínuo |
 |---|---|
-| **Arquitetura Visual** — O chassi do produto (Monolito Modular B2B)<br><img src="https://raw.githubusercontent.com/wganalytics/saas-architecture-case/main/diagram.svg" width="840"/> | **Governança Ágil (Jira)** — Fatiamento da Epic e Fluxo Contínuo<br><img src="https://raw.githubusercontent.com/wganalytics/saas-architecture-case/main/assets/jira-epic-breakdown.png" width="840"/> |
+| <img src="https://raw.githubusercontent.com/wganalytics/saas-architecture-case/main/diagram.svg" width="840"/> | <img src="https://raw.githubusercontent.com/wganalytics/saas-architecture-case/main/assets/jira-epic-breakdown.png" width="840"/> |
 
-</details>
+
 
 
 
