@@ -200,6 +200,34 @@ A passagem de bastão entre sessões e agentes não fica só na memória — cad
 *Stack verificada nos 17 projetos publicados (9 RAG + 8 MCP/A2A) — Gemini, Grok e Groq entram como providers de LLM plugáveis via LiteLLM/seletor multi-provider, não como serviços hospedados.*
 
 ---
+---
+
+## 🏛️ System Design & Arquitetura SaaS
+
+> **Case prático de arquitetura e governança de software para SaaS B2B Multi-Tenant.**
+
+Enquanto os repositórios acima focam em implementações de IA, este case foca na **engenharia de software, segurança e design de sistema** por trás de um produto real (AuditFlow). O repositório contém os Architecture Decision Records (ADRs) documentando a Anti-Corruption Layer, Audit Log Imutável com SHA-256 e as evidências visuais de governança ágil no Jira.
+
+| # | Projeto | Foco Principal | Repositório |
+|:-:|---------|----------------|--------------|
+| 01 | **AuditFlow Architecture** | System Design, Governança, ADRs | [saas-architecture-case](https://github.com/wganalytics/saas-architecture-case) |
+
+<details>
+<summary><b>📸 Sneak Peek: Diagrama e Governança</b></summary>
+<br>
+
+| | |
+|---|---|
+| **Arquitetura Visual** — Diagrama do Produto<br><img src="https://raw.githubusercontent.com/wganalytics/saas-architecture-case/main/diagram.svg" width="840"/> | **Governança Ágil (Jira)** — Fatiamento da Epic<br><img src="https://raw.githubusercontent.com/wganalytics/saas-architecture-case/main/assets/jira-epic-breakdown.png" width="840"/> |
+
+</details>
+
+
+
+
+
+
+
 
 ## 🎓 GIULIA AI Academy
 
