@@ -1,6 +1,6 @@
 # Wemerson Guilherme de Souza
 
-### Tech Lead & AI Engineer · RAG · Analytics · Fundador GIULIA AI
+### AI Engineer · RAG · Analytics · Fundador GIULIA AI
 
 📍 Serra, ES — Brasil &nbsp;|&nbsp; 📩 wemerson.souza@giulia-ai.com &nbsp;|&nbsp; 🌐 [giulia-ai.com](https://giulia-ai.com) · [academy.giulia-ai.com](https://academy.giulia-ai.com) &nbsp;|&nbsp; 💬 [WhatsApp](https://wa.me/5527997136867) &nbsp;|&nbsp; [![LinkedIn](https://img.shields.io/badge/LinkedIn-wganalytics-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/wganalytics)
 
@@ -10,11 +10,11 @@
 
 ```python
 class WemersonGuilherme:
-    role       = "Tech Lead & AI Engineer"
+    role       = "AI Engineer"
     company    = "GIULIA AI — Fundador"
     location   = "Serra, ES — Brasil 🇧🇷"
     experience = "18+ anos em TI, Dados e IA"
-    focus      = ["RAG", "AI Engineering", "Analytics", "EdTech"]
+    focus      = ["RAG", "AI Engineering", "Analytics"]
     principle  = "Sistemas que funcionam de verdade, não só em demo."
 
     def what_i_build(self):
@@ -129,7 +129,7 @@ Também disponível como [repositório único (giulia-mcp-series)](https://githu
 
 > **Engenharia de Software no mundo real:** Case prático de arquitetura tática, segurança *by design* e governança ágil para um produto SaaS B2B Multi-Tenant.
 
-Enquanto os repositórios focados em IA (RAG e MCP) demonstram minha capacidade técnica com modelos e protocolos, o **AuditFlow Architecture Case** é a prova material da minha atuação holística como **Tech Lead e Product Architect**. Trata-se de uma documentação no modelo *"Clean Room"* (livre de IP proprietário) que expõe o chassi arquitetural e as decisões difíceis de engenharia de um produto operando em produção.
+Enquanto os repositórios focados em IA (RAG e MCP) demonstram minha capacidade técnica com modelos e protocolos, o **AuditFlow Architecture Case** é a prova material da minha atuação holística como **AI Engineer e Product Architect**. Trata-se de uma documentação no modelo *"Clean Room"* (livre de IP proprietário) que expõe o chassi arquitetural e as decisões difíceis de engenharia de um produto operando em produção.
 
 Neste case, o foco sai do código puro e vai para as métricas de qualidade, rastreabilidade e **Architecture Decision Records (ADRs)** que resolvem problemas críticos de escala e segurança corporativa:
 
@@ -272,7 +272,7 @@ A passagem de bastão entre sessões e agentes não fica só na memória — cad
 
 ## 📬 Contato
 
-**Aberto a posições remotas de Tech Lead ou Head de IA/Dados**
+**Aberto a posições 100% remotas como AI Engineer**
 *onde autonomia técnica e aprendizado contínuo façam parte da cultura.*
 
 <div align="center">
