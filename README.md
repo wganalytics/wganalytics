@@ -157,7 +157,7 @@ Neste case, o foco sai do código puro e vai para as métricas de qualidade, ras
 
 ## <img src="assets/giulia-avatar.png" alt="Giulia" width="30" height="30"/> GIULIA AI Engineering Ecosystem
 
-🔗 **Repositório público:** [wganalytics/giulia-ai-engineering-ecosystem](https://github.com/wganalytics/giulia-ai-engineering-ecosystem) — framework de governança e metodologia (RLM, SDD, TDD, automação de ciclo de vida Jira) usado em todos os projetos deste perfil.
+🔗 **Repositório público:** [wganalytics/giulia-ai-engineering-ecosystem](https://github.com/wganalytics/giulia-ai-engineering-ecosystem) — metodologia de desenvolvimento orientado a especificação e testes, com automação do ciclo de tarefas no Jira usado em todos os projetos deste perfil.
 
 O ecossistema não depende de um agente único — a governança está documentada no próprio monorepo, então qualquer CLI de codificação com IA (hoje: **Claude Code**, **Codex**, **Antigravity**, **OpenCode**) segue o mesmo ciclo completo de desenvolvimento ao entrar no projeto:
 
@@ -175,7 +175,7 @@ O ecossistema não depende de um agente único — a governança está documenta
 
 ---
 
-## 🧠 Padrão RLM — Gerenciamento de Contexto
+## 🧠 Gerenciamento de contexto para LLMs
 
 Inspirado no streaming de mundo aberto do GTA — carrega só a camada necessária pra responder a pergunta de agora, não o projeto inteiro de uma vez. O **RLM (Recursive Language Model)** organiza a documentação do monorepo em 5 camadas, da mais compacta pra mais profunda, para qualquer LLM retomar o projeto do zero sem perder contexto:
 
