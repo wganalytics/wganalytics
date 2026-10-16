@@ -117,6 +117,10 @@ Também disponível como [repositório único (giulia-mcp-series)](https://githu
 |:----------------------:|:----------------------:|:--------------:|:--------------:|
 | 22 | 8 | 3 | 47 |
 
+> **VOXIA** — sistema em produção (código privado), construído com base no ecossistema GIULIA AI de engenharia e gestão: **132 mil linhas de código** (48 mil de teste), **2.300+ testes** e 361 issues encerradas no Jira. Estudo de caso: [giulia-ai.com/cases/voxia.html](https://giulia-ai.com/cases/voxia.html)
+>
+> **Somado ao ecossistema: mais de 150 mil linhas e mais de 2.900 testes.** A tabela acima cobre só o ecossistema público e verificável.
+
 ---
 
 
